@@ -4,7 +4,7 @@ PSENet：Shape Robust Text Detection with Progressive Scale Expansion Network
 	提出了一种基于基于像素级别的分割的方法psenet，能够对任意形状的文本进行定位。
 	提出了一种渐进的尺度扩展算法，该算法可以成功地识别相邻文本实例。
 二、网络结构：
-!(figure/pipeline.png)
+![网络结构](figure/pipeline.png)
 PSENET中的backbone采用resnet，网络框架类似于FPN的结构，特征金字塔网络，整个网络的结构大致如下：
 1.	首先是一个简单的ResNet的网络结构
 2.	其次是类似于FPN的操作方法，生成p2~p5的fpn特征图
